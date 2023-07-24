@@ -1,0 +1,89 @@
+/*CSS GLOBAL*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-principal: #EAEAEA;
+    --bg-segundario: #FFFFFF;
+    --font-titulo: #1b1b1b;
+    --font-color: #39393A;
+    --font-colorf: #8F8F8F;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-principal);
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 1em 0;
+}
+
+/*CSS DA IMAGEM E TITULO*/
+
+section {
+    background-color: #FFFFFF;
+    margin: 2em auto;
+    width: 65vw;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.img-principal {
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+}
+
+.img-principal h1 {
+    font-size: 28px;
+    padding: 1em;
+}
+
+.img-principal p {
+    text-align: end;
+    color: var(--font-colorf);
+}
+
+.img-principal img {
+    height: 40vh;
+    width: 60vw;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/*CSS Restante da pagina*/
+
+.lista {
+    width: 57vw;
+    margin: auto;
+    
+}
+
+.lista li {
+    padding: 1em;
+}
+
+.modoPreparo h2{
+    text-align: center;
+    margin: 1em;
+}   
+
+.informacoes div {
+    margin: auto;
+    width: 60vw;
+}
+
+/*footer*/
+
+footer p {
+    text-align: center;
+    padding: 1em;
+}
+
